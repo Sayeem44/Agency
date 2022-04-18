@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- __________Link of font awesome kit__________ -->
+  <script src="https://kit.fontawesome.com/743c5e1d98.js" crossorigin="anonymous"></script>
+
+  <!-- ____________link of google fonts__________ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <!-- _____________Aos library_____________ -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="./Assets/sass/main.css" />
+</head>
+
+<body>
+  <!-- _______________starts Header_________________ -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav__bar d-flex jc-sb ai-c">
+        <div class="nav__logo">
+          <a href="#home" class="">Agency</a>
+        </div>
+        <div class="nav__menu">
+          <ul class="nav__list d-flex ai-c">
+            <div class="hamburger__btn_times" id="hamburger__btn" onclick="hideMenu()">
+              <a href="#home" class="times"><i class="fas fa-times"></i></a>
+            </div>
+            <li class="nav__item home active">
+              <a href="#home" class="nav__link ">Home</a>
+            </li>
+            <li class="nav__item about">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item services">
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+            <li class="nav__item team">
+              <a href="#team" class="nav__link">Team</a>
+            </li>
+            <li class="nav__item pricing">
+              <a href="#pricing" class="nav__link">Pricing</a>
+            </li>
+            <li class="nav__item contact">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+            <a href="#contact" class="btn__solid">Contact Me</a>
+          </ul>
+        </div>
+        <div class="hamburger__btn_bars" id="hamburger__btn" onclick="showMenu()">
+          <a href="#" class="bar"><i class="fas fa-bars"></i></a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- _____________ends Header_______________ -->
+  <!-- _____________starts main________________ -->
+  <main>
+    <!-- ____________starts home____________ -->
+    <section class="home home__section" id="home">
+      <div class="container">
+        <div class="d-flex jc-sb ai-c">
+          <div class="home__desc" data-aos="fade-right">
+            <h3>Welcome</h3>
+            <h1>To our great agency</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quo impedit vero dignissimos nam totam aut perferendis ipsum reiciendis? Quidem.
+            </p>
+            <div class="btn">
+              <a href="#about" class="btn__transparent">Read More</a>
+              <a href="#contact" class="btn__solid">Contact Me</a>
+            </div>
+          </div>
+          <div class="home__img" data-aos="fade-left">
+            <img
+              src="./Assets/Img/04.png"
+              alt="homeImg" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ______________ends home____________ -->
+    <!-- _____________starts about_______________ -->
+    <section class="about about__section" id="about">
+      <div class="container">
+        <div class="d-flex">
+          <div class="section-title">
+            <h2 data-heading="about us">What we do</h2>
+          </div>
+        </div>
+        <div class="d-flex jc-sb ai-c">
+          <div class="about__img" data-aos="fade-up">
+            <img
+              src="https://affirm.uicore.co/business-consultant/wp-content/uploads/sites/2/2021/09/business-consultant-hero-man.webp"
+              alt="">
+          </div>
+          <div class="about__desc" data-aos="fade-down">
+            <h3>We are best</h3>
+            <h1>Start building the products your customers want</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas illo deleniti rerum laudantium fugiat
+              <br> accusantium quos itaque sequi adipisci dignissimos veniam, dolorum sapiente exercitationem, omnis
+              amet aut dolorem dolores minima inventore. Harum, voluptates asperiores!</p>
+            <a href="#contact" class="btn__solid about__btn">Contact with us</a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- _____________ends about_______________ -->
+    <!-- _____________starts services______________ -->
+    <section class="services services__section" id="services">
+      <div class="container">
+        <div class="d-flex">
+          <div class="section-title">
+            <h2 data-heading="services">what i do</h2>
+          </div>
+        </div>
+        <div class="services__contents">
+          <div class="service" data-aos="fade-up">
+            <i class="fas fa-laptop"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Quidem, obcaecati.
+            </p>
+          </div>
+          <div class="service" data-aos="fade-up">
+            <i class="fas fa-laptop"></i>
+            <h2>Web Development</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Quidem, obcaecati.
+            </p>
+          </div>
+          <div class="service" data-aos="fade-down">
+            <i class="fas fa-palette"></i>
+            <h2>Graphics Design</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Quidem, obcaecati.
+            </p>
+          </div>
+          <div class="service" data-aos="fade-down">
+            <i class="fas fa-chart-pie"></i>
+            <h2>Digital Marketting</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Quidem, obcaecati.
+            </p>
+          </div>
+          <div class="service" data-aos="fade-up">
+            <i class="fas fa-laptop"></i>
+            <h2>Google Rankink</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Quidem, obcaecati.
+            </p>
+          </div>
+          <div class="service" data-aos="fade-up">
+            <i class="fas fa-bullhorn"></i>
+            <h2>Great Support</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Quidem, obcaecati.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ____________ends services_____________ -->
+    <!-- ____________starts Team___________ -->
+    <section class="testimonial team__section" id="team">
+      <div class="container">
+        <div class="d-flex">
+          <div class="section-title">
+            <h2 data-heading="Testimonial">what client say</h2>
+          </div>
+        </div>
+        <div class="d-flex row">
+          <div class="testimonial-col d-flex row" data-aos="zoom-in-up">
+            <img src="Assets/Img/01.jpg" alt="" />
+            <div class="">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Maxime quis facilis quas saepe aspernatur, aliquid cum.
+              </p>
+              <h3>Christine Berkley</h3>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+          <div class="testimonial-col d-flex row" data-aos="zoom-in-down">
+            <img src="Assets/Img/02.jpg" alt="" />
+            <div class="">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Maxime quis facilis quas saepe aspernatur, aliquid cum.
+              </p>
+              <h3>David Byer</h3>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ____________ends Team___________ -->
+    <!-- ____________strats pricing__________ -->
+    <section class="pricing" id="pricing">
+      <div class="container">
+        <div class="d-flex">
+          <div class="section-title">
+            <h2 data-heading="Pricing">Pricing Plan</h2>
+          </div>
+        </div>
+        <div class="pricing__contents" data-aos="zoom-in">
+          <div class="price">
+            <h2>Basic</h2>
+            <p>1| 2 Pages</p>
+            <p>2| Design Customization</p>
+            <p>3| Content Upload</p>
+            <p>5| Responsive Design</p>
+            <p>6| Include Source Code</p>
+            <hr />
+            <div class="price__value">
+              <h3>$10<span>/3 Days</span></h3>
+            </div>
+            <a href="" class="btn__solid">Get Started</a>
+          </div>
+
+          <div class="price_2">
+            <h2>Standard</h2>
+            <p>1| 5 Pages</p>
+            <p>2| Design Customization</p>
+            <p>3| Content Upload</p>
+            <p>4| Responsive Design</p>
+            <p>5| Include Source Code</p>
+            <!-- <p>Lorem, ipsum dolor.</p> -->
+            <hr />
+            <div class="price__value">
+              <h3>$30<span>/5 Days</span></h3>
+            </div>
+            <a href="" class="btn__transparent">Get Started</a>
+          </div>
+          <div class="price">
+            <h2>Premium</h2>
+            <p>1| 10 Pages</p>
+            <p>2| Design Customization</p>
+            <p>3| Content Upload</p>
+            <p>4| Responsive Design</p>
+            <p>5| Include Source Code</p>
+            <hr />
+            <div class="price__value">
+              <h3>$50<span>/7 Days</span></h3>
+            </div>
+            <a href="" class="btn__solid">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ____________ends pricing__________ -->
+
+    <section class="contact-section section" id="contact">
+      <div class="container">
+        <div class="d-flex">
+          <div class="section-title">
+            <h2 data-heading="contact">Get in touch</h2>
+          </div>
+        </div>
+        <div class="d-flex">
+          <!-- ------contact item starts here---------- -->
+          <div class="contact-item" data-aos="zoom-in-right">
+            <!--data-aos="zoom-out-right"-->
+            <div class="contact-item-inner outer-shadow">
+              <i class="fas fa-phone"></i>
+              <span>Phone</span>
+              <p>000 123 7777</p>
+            </div>
+          </div>
+          <!-- ------contact item ends here---------- -->
+          <!-- ------contact item starts here---------- -->
+          <div class="contact-item" data-aos="zoom-in">
+            <!--data-aos="zoom-out-up"-->
+            <div class="contact-item-inner outer-shadow">
+              <i class="fas fa-envelope"></i>
+              <span>Email</span>
+              <p>info@domain.com</p>
+            </div>
+          </div>
+          <!-- ------contact item ends here---------- -->
+          <!-- ------contact item starts here---------- -->
+          <div class="contact-item" data-aos="zoom-in-left">
+            <!--data-aos="zoom-out-left"-->
+            <div class="contact-item-inner outer-shadow">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Address</span>
+              <p>b/23 Sarita vihar, New Delhi-45900</p>
+            </div>
+          </div>
+          <!-- ------contact item ends here---------- -->
+        </div>
+        <div class="d-flex">
+          <div class="contact-form">
+            <form action="" method="post">
+              <div class="d-flex">
+                <div class="w-50" data-aos="zoom-in-up">
+                  <div class="input-group outer-shadow hover-in-shadow">
+                    <input type="text" placeholder="Name" class="input-control" required />
+                  </div>
+                  <div class="input-group outer-shadow hover-in-shadow">
+                    <input type="email" placeholder="Email" class="input-control" class="input-control" required />
+                  </div>
+                  <div class="input-group outer-shadow hover-in-shadow">
+                    <input type="Subject" placeholder="Subject" class="input-control" required />
+                  </div>
+                </div>
+                <div class="w-50" data-aos="zoom-in-up">
+                  <div class="input-group outer-shadow hover-in-shadow">
+                    <textarea class="input-control" placeholder="Message" required></textarea>
+                  </div>
+                </div>
+              </div>
+             
+              <div class="d-flex jc-sb form__btn" data-aos="zoom-in-up">
+                <span href="#" class="btn__transparent">Reset</span>
+                <span href="#" class="btn__solid">Send</span>
+              </div>
+          </div>
+          </form>
+        </div>
+      </div>
+      </div>
+    </section>
+  </main>
+  <!-- _____________ends main________________ -->
+  <!-- ___________starts footer______________ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__contents">
+        <div class="footer__item" data-aos="zoom-in-down">
+          <div class="footer__title">
+            <h2>About Us</h2>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+            laboriosam aperiam eum.
+          </p>
+        </div>
+        <div class="footer__item" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+          <div class="footer__title">
+            <h2>Menu Links</h2>
+          </div>
+
+          <li class="nav__item">
+            <a href="#home" class="">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="">Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#pricing" class="">Pricing</a>
+          </li>
+          <li class="nav__item">
+            <a href="#team" class="">Team</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="">Contact</a>
+          </li>
+
+        </div>
+        <div class="footer__item" data-aos="zoom-in-down">
+          <div class="footer__title">
+            <h2>Contact us</h2>
+          </div>
+          <p>
+            b/23 Sarita vihar, New Delhi-45900
+          </p>
+        </div>
+        <div class="footer__item" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+          <div class="footer__title">
+            <h2>Follow Us</h2>
+          </div>
+          <a href="#" class="footer__icon"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="footer__icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="footer__icon"><i class="fab fa-linkedin"></i></a>
+          <a href="#" class="footer__icon"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="copy">
+        <p>&copy; 2021 All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+  <!-- ___________ends footer______________ -->
+  <script src="./Assets/Js/script.js"></script>
+  <!-- ___________Aos Library___________ -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init(
+      {
+        delay: 1,
+        duration: 700,
+      }
+    );
+  </script>
+</body>
+
+</html>

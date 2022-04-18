@@ -1,0 +1,30 @@
+.btn__solid{
+    // border: 1px solid lightslategrey;
+    border: 1px solid rgb(5, 94, 126);
+    background-color: rgb(5, 94, 126);
+    padding: 10px 24px;
+    border-radius: 3rem;
+    color: #fff;
+    transition: 0.7s ease;
+}
+
+.btn__solid:hover{
+    background-color:transparent;
+    border-color: rgb(5, 94, 126);
+}
+
+
+// _______________btn transparent_________________
+.btn__transparent{
+    // border: 1px solid lightslategrey;
+    border: 1px solid rgb(5, 94, 126);
+    padding: 10px 27px;
+    border-radius: 3rem;
+    color: #fff;
+    transition: .7s ease;
+}
+
+.btn__transparent:hover{
+    background-color: rgb(5, 94, 126);
+    border: 1px solid rgb(5, 94, 126);
+}
